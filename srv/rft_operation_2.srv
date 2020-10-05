@@ -1,0 +1,6 @@
+uint8 opType
+uint8 param1
+uint8 param2
+uint8 param3
+---
+uint8 result
