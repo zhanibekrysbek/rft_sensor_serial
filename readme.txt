@@ -13,12 +13,21 @@
 	stty -F /dev/ttyUSB1 921600
 
 
-3. rosrun rft_sensor_serial rft_sensor_serial
+3. Give access permision to other users
 
+	sudo chmod 777 /dev/ttyUSB0
+
+
+3. Execute
+
+	rosrun rft_sensor_serial rft_sensor_serial
 
 
 4. Rosservice call ...
 
 	Sensor 1 - C00300119
 	Sensor 2 - C00300122 
+
+
+
 
